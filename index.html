@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0, user-scalable=no'>
 	<title>充值测试</title>
 	<style type="text/css">
-	 div{  
+/*	 div{  
 	 	   width: 100px;
 		  margin: 0 auto;
 		}
@@ -11,14 +13,21 @@
 		margin-top: 150px;
         width: 140px;
         height: 80px;
-	}
+	}*/
 	</style>
 </head>
 <body>
-<div>
-<button id="chongzhi">点击充值</button>	
-</div>
+<form method="post" action="https://api.mch.weixin.qq.com/pay/unifiedorder">
 
+
+<label for="body1">充5000送1000项目卡</label><input type="checkbox" name="body1" value="body1"><br>
+<label for="body2">充10000送3000项目卡，送限量精美饰品</label><input type="checkbox" name="body2" value="body2"><br>
+<label for="body3">充20000送5000项目卡，送限量包包</label><input type="checkbox" name="body3" value="body3"><br>
+
+
+<input type="submit" name="chognzhi" value="点击充值">
+
+</form>
 
 </body>
 </html>
