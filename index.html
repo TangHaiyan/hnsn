@@ -20,14 +20,22 @@
 <form method="post" action="https://api.mch.weixin.qq.com/pay/unifiedorder">
 
 
-<label for="body1">充5000送1000项目卡</label><input type="checkbox" name="body1" value="body1"><br>
-<label for="body2">充10000送3000项目卡，送限量精美饰品</label><input type="checkbox" name="body2" value="body2"><br>
-<label for="body3">充20000送5000项目卡，送限量包包</label><input type="checkbox" name="body3" value="body3"><br>
+<div>
+<label for="body">充5000送1000项目卡</label><input type="radio" name="body" value="body" checked="checked"><br>	
+</div>
+<div>
+	<label for="body">充10000送3000项目卡，送限量精美饰品</label><input type="radio" name="body" value="body2"><br>
+</div>
+<div>
+<label for="body">充20000送5000项目卡，送限量包包</label><input type="radio" name="body" value="body"><br>	
+</div>
 
 
-<input type="submit" name="chognzhi" value="点击充值">
+
+<input type="button" id="chongzhi" value="点击充值">
 
 </form>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
