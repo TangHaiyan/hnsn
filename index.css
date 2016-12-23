@@ -3,6 +3,7 @@
   padding: 0;
 }
 html,body{
+	max-width: 600px;
 	font-family: "microsoft Yahei";
 }
 .banner img{
@@ -122,6 +123,7 @@ html,body{
 }
 .gift2{
 	margin-top: 15px;
+	position: relative;
 	background: #fff;
 	height: 126px;
 }
