@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+	font-family: "microsoft Yahei";
+}
+.banner img{
+   width: 100%;
+}
+.activity{
+	background: url(./img/bg.jpg) repeat;
+}
+.rule{
+	margin: 0 auto;
+	background: #fff;
+	width: 90%;
+}
+.rule .ribbon {
+	position: absolute;
+	left: -5%;
+}
+.rule .ribbon img{
+   width: 50%;
+}
+.rule h2{
+	margin: 0 auto 14px;
+	text-align: center;
+	color: #f94a45;
+	font-size: 17px;
+}
+
+.rule p,.rule ul{
+	margin: 10px auto;
+	width: 90%;
+	font-size: 14px;
+	line-height: 18px;
+	color: #18191b;		
+}
+.rule li{
+	margin-bottom: 4px;
+}
+.rule li strong{
+	color: #f34745;
+}
+.rule ul{
+	list-style: none;
+}
+.rule .recharge{
+	text-align: center;
+}
+.rule button{
+	display: inline-block;
+	margin: 0 auto 14px;
+    width: 70px;
+    height: 25px;
+    background: #f14031;
+    border-style: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "microsoft Yahei";
+}
+
+
+.slogan h2,.slogan p{
+	color: #fff;
+	text-align: center;
+}
+.slogan h2{
+	margin: 14px 10px 5px;
+	font-size: 15px;
+}
+.slogan p{
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.slogan	.title{
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+}
+.slogan	.line{
+	flex: 1;
+	position: relative;
+	top: -12px;
+	border-bottom: 2px solid rgba(255,255,255,0.2)
+}
+
+.gift1 {
+	position: relative;
+	height: 126px;
+	background: #fff;
+/*	background-position: 0 0;
+	background: #fff url(./img/bag1.png) no-repeat bottom;	
+	background-size: 80% auto;*/
+}
+
+.gift1 h3,.gift1 p{
+	width: 95%;
+	text-align: right;
+}
+.gift1 h3{
+	padding: 14px 0 2px;
+	font-size: 15px;
+}
+.gift1 p{
+	padding-bottom: 14px;
+	font-size: 12px;
+}
+
+.gift1 p strong{
+	color: #fa352c;
+}
+.gift1 img{
+   position: absolute;
+   left: 5%;
+   bottom: 0;
+   width: 70%;
+}
+.gift2{
+	margin-top: 15px;
+	background: #fff;
+	height: 126px;
+}
+.gift2 .content{
+	margin-top: 20px;
+	margin-left: 5%;
+	display: inline-block;
+	/*width: 60%;*/
+	vertical-align: top;	
+}
+.gift2 h3{
+	padding: 14px 0 2px;
+	font-size: 15px;
+}
+.gift2 p{
+	padding-bottom: 14px;
+	font-size: 12px;
+}
+.gift2 img{
+   position: absolute;
+   right: 5%;
+   margin: 18px 0 0 50px;
+   width: 125px;
+   height: 90px;
+}
+
+.ask{
+	margin: 15px auto 0;
+	width: 80%;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	border-radius: 4px;
+	background: #fff;
+	color: #fa352c;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.store{
+	margin-top: 21px;
+	color: #fff;
+}
+.store h3,.store ul{
+	margin: 0 auto;
+	width: 80%;
+}
+.store h3{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.store ul{
+	list-style: none;
+	font-size: 12px;
+}
+.store li{
+	margin-bottom: 5px;
+}
+
+.store li p:nth-child(1){
+   width: 9em;
+}
+.store li p:nth-child(2),.store li p:nth-child(3){
+	margin-left: 2em;
+}
+
+.store li:last-child{
+	padding-bottom: 5em;
+}

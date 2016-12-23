@@ -35,7 +35,7 @@
 		//2、连接服务器
 		request.open("post",url);
 		//3、设置头部信息
-		request.setRequestHeader("content-type","application/xml");
+		request.setRequestHeader("content-type","text/xml");
 		//4、发送请求
 		request.send(options);
 		//4、监听响应

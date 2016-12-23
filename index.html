@@ -4,37 +4,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0, user-scalable=no'>
 	<title>充值测试</title>
-	<style type="text/css">
-/*	 div{  
-	 	   width: 100px;
-		  margin: 0 auto;
-		}
-	button {
-		margin-top: 150px;
-        width: 140px;
-        height: 80px;
-	}*/
-	</style>
+	<link rel="stylesheet" type="text/css" href="index.css">
+
 </head>
 <body>
-<form method="post" action="https://api.mch.weixin.qq.com/pay/unifiedorder">
 
-
-<div>
-<label for="body">充5000送1000项目卡</label><input type="radio" name="body" value="body" checked="checked"><br>	
+<div class="activity">
+  <div class="banner">
+  	<img src="./img/banner.jpg" alt="圣诞元旦，感恩回馈">
+  </div><div class="content">
+	  <div class="rule">
+	    <div class="ribbon">
+	    	<img src="./img/ribbon.png">
+	    </div>
+	  	<h2>活动规则</h2>
+	  	<p>为感谢新老顾客对圣女美颜的支持与厚爱，即日起至元旦假期结束，同时享受充值回馈和限量礼品赠送！</p>
+	    <ul>
+	    	<li><strong>1.</strong>充值<strong>5000</strong>送<strong>1000</strong>项目卡。</li>
+	    	<li><strong>2.</strong>充值<strong>10000</strong>送<strong><strong>3000</strong></strong>项目卡，送限量精美饰品。</li>
+	    	<li><strong>3.</strong>充值<strong>20000</strong>送<strong>5000</strong>项目卡。</li>
+	    </ul>
+	    <p>项目任你选，只挑你所爱！</p>
+	    <div class="recharge"><button>立即充值</button></div>
+	  </div>
+	  <div class="slogan">
+	  	<div class="title"><div class="line"></div><h2>尊贵享受</h2><div class="line"></div></div>
+	  	<p>郴州高品质与独一无二的享受就在圣女美颜!</p>
+	  </div>
+	  <div class="gift1">
+	    <img src="./img/bag1.png">
+	  	<h3>ALDO限量礼品</h3>
+	  	<p>加拿大本土一线品牌 ，<strong>送完即止!</strong></p>
+	  </div>
+	  <div class="gift2">
+	    <div class="content">
+		  	<h3>ALDO时尚宴会手包</h3>
+		  	<p>您身份的象征！</p>	    	
+	    </div>
+	  	<img src="./img/bag2.jpg">
+	  </div> 
+	  <div class="ask">
+	  	<p>更多礼品入店咨询，送完即止，现在就预约吧!</p>
+	  </div> 
+	  <div class="store">
+	  	<h3>参与活动的门店：</h3>
+	  	<ul>
+	  		<li>
+	  		   <p>郴州明桂园店:</p>
+	  		   <p>南湖路9号 (明桂园后门)</p>
+	  		   <p>0735-2166078 (9：00-21：00)</p>
+	  		</li>
+	  		<li>
+	  			<p>郴州兴旺步行街店:</p>
+	  			<p>兴旺步行街68号</p>
+	  			<p>0735-2166078 (9：00-21：00)</p>
+	  		</li>
+	  		<li>
+	  			<p>郴州东街店：</p>
+	  			<p>苏仙区曹家坪1号，4栋1-39号(郴江丽景河边)</p>
+	  			<p>0735-2152451 (9：00-21：00)</p>
+	  		</li>
+	  		<li>
+	  			<p>郴州人民西路店：</p>
+	  			<p>北湖区人民西路新欣楼19-22(冶金宾馆对面)</p>
+	  			<p>0735-8881062 (9：00-21：00)</p>
+	  		</li>
+	  	</ul>
+	  </div>
+	</div>	
 </div>
-<div>
-	<label for="body">充10000送3000项目卡，送限量精美饰品</label><input type="radio" name="body" value="body2"><br>
-</div>
-<div>
-<label for="body">充20000送5000项目卡，送限量包包</label><input type="radio" name="body" value="body"><br>	
-</div>
-
-
-
-<input type="button" id="chongzhi" value="点击充值">
-
-</form>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
 </body>
