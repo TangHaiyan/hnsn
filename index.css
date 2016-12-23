@@ -180,7 +180,9 @@ html,body{
 .store li{
 	margin-bottom: 5px;
 }
-
+.store li p {
+	line-height: 16px;
+}
 .store li p:nth-child(1){
    width: 9em;
 }
@@ -189,5 +191,6 @@ html,body{
 }
 
 .store li:last-child{
+	margin-bottom: 0;
 	padding-bottom: 5em;
 }
