@@ -19,10 +19,10 @@ html,body{
 }
 .rule .ribbon {
 	position: absolute;
-	left: -5%;
+	left: -3%;
 }
 .rule .ribbon img{
-   width: 50%;
+   width: 60%;
 }
 .rule h2{
 	margin: 0 auto 14px;
